@@ -19,7 +19,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             
-            <form class="d-inline w-50 ml-auto p-1">
+            <!--form class="d-inline w-50 ml-auto p-1">
                 <div class="input-group">
                     <input type="text" class="form-control border border-right-0" placeholder="Buscar producto o servicio...">
                     <span class="input-group-append">
@@ -29,7 +29,7 @@
                         </button>
                     </span>
                 </div>
-            </form>
+            </form-->
             
             <ul class="navbar-nav ml-auto">
                 
