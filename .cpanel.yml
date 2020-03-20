@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/dcomputer1/
     - /bin/cp -R public_html $DEPLOYPATH
+    - /bin/cp -R public_html $resources
