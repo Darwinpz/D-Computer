@@ -12,7 +12,7 @@
 
     //Ruta url
 
-    define('RUTA_URL','http://192.168.50.124/dcomputer');
+    define('RUTA_URL','https://dcomputer.net/');
 
     //Nombre del sitio
 

@@ -4,7 +4,9 @@
 		
 		Ext.define('mdlcarrera', {
 			extend: 'Ext.data.Model'
-			,fields: [*
+			,fields: [
+				{name: 'rcodigo', type: 'int'},
+				{name: 'carrera',  type: 'string'}
 			]
 		});
 		
