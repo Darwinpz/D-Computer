@@ -30,7 +30,7 @@
           <a href="<?php echo RUTA_URL;?>/inicio/nosotros">Nosotros</a>
         </p>
         <p>
-          <a href="#!">Registrarse</a>
+        <a href="<?php echo RUTA_URL;?>/usuario/registrarse">Registrarse</a>
         </p>
         <p>
           <a href="#!">Ayuda</a>
