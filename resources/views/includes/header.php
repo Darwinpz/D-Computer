@@ -49,7 +49,7 @@
                 </li>
 
                 <li class="nav-item <?php echo $datos['estado'] == 'login' ? 'active': '' ?>">
-                    <a class="nav-link" href="<?php echo RUTA_URL;?>"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    <a class="nav-link" href="<?php echo RUTA_URL;?>"><i class="fas fa-sign-in-alt"></i> Ingresar</a>
                 </li>
  
                 <?php 
