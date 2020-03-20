@@ -44,12 +44,12 @@
                     <a class="nav-link" href="<?php echo RUTA_URL;?>/inicio/nosotros">Nosotros</a>
                 </li>
 
-                <li class="nav-item <?php echo $datos['estado'] == 'login' ? 'active': '' ?>">
-                    <a class="nav-link" href="<?php echo RUTA_URL;?>"><i class="fas fa-address-book"></i> Registrarse</a>
+                <li class="nav-item <?php echo $datos['estado'] == 'registrarse' ? 'active': '' ?>">
+                    <a class="nav-link" href="<?php echo RUTA_URL;?>/usuario/registrarse"><i class="fas fa-address-book"></i> Registrarse</a>
                 </li>
 
-                <li class="nav-item <?php echo $datos['estado'] == 'login' ? 'active': '' ?>">
-                    <a class="nav-link" href="<?php echo RUTA_URL;?>"><i class="fas fa-sign-in-alt"></i> Ingresar</a>
+                <li class="nav-item <?php echo $datos['estado'] == 'ingresar' ? 'active': '' ?>">
+                    <a class="nav-link" href="<?php echo RUTA_URL;?>/usuario/ingresar"><i class="fas fa-sign-in-alt"></i> Ingresar</a>
                 </li>
  
                 <?php 
