@@ -11,7 +11,7 @@
                 <h4>Ingresar al sistema</h4>
             </div>
 
-            <img src="<?php echo RUTA_URL;?>/img/d-computer.ico" class="rounded-circle mx-auto d-block m-2 w-50" alt="logo">
+            <img src="/img/d-computer.ico" class="rounded-circle mx-auto d-block m-2 w-50" alt="logo">
 
             <h3>D-computer</h3>
 

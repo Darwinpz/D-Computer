@@ -2,9 +2,9 @@
 
     //Configuracion de acceso a la bd
     define('DB_HOST','localhost');
-    define('DB_USUARIO','root');
-    define('DB_PASSWORD','');
-    define('DB_NOMBRE','prueba');
+    define('DB_USUARIO','dcomputer1_admin');
+    define('DB_PASSWORD','Computer2018');
+    define('DB_NOMBRE','dcomputer1_dcomputerbd');
     
     //Ruta de la aplicacion
 

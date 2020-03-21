@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="<?php echo RUTA_URL;?>/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/css/estilos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title><?php echo NOMBRE_SITIO; ?></title>
 </head>
@@ -13,7 +13,7 @@
 
         <div class="container">
         
-        <a class="navbar-brand" href="<?php echo RUTA_URL;?>"><?php echo NOMBRE_SITIO;?></a>
+        <a class="navbar-brand" href="/"><?php echo NOMBRE_SITIO;?></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,22 +34,22 @@
             <ul class="navbar-nav ml-auto">
                 
                 <li class="nav-item <?php echo $datos['estado'] == 'inicio' ? 'active': '' ?>">
-                    <a class="nav-link" href="<?php echo RUTA_URL;?>"><i class="fas fa-home"></i> Inicio</a>
+                    <a class="nav-link" href="/"><i class="fas fa-home"></i> Inicio</a>
                     
                 </li>
                 <li class="nav-item <?php echo $datos['estado'] == 'agregar' ? 'active': '' ?>">
-                    <a class="nav-link" href="<?php echo RUTA_URL;?>/inicio/agregar">Agregar</a>
+                    <a class="nav-link" href="/inicio/agregar">Agregar</a>
                 </li>
                 <li class="nav-item <?php echo $datos['estado'] == 'nosotros' ? 'active': '' ?>">
-                    <a class="nav-link" href="<?php echo RUTA_URL;?>/inicio/nosotros">Nosotros</a>
+                    <a class="nav-link" href="/inicio/nosotros">Nosotros</a>
                 </li>
 
                 <li class="nav-item <?php echo $datos['estado'] == 'registrarse' ? 'active': '' ?>">
-                    <a class="nav-link" href="<?php echo RUTA_URL;?>/usuario/registrarse"><i class="fas fa-address-book"></i> Registrarse</a>
+                    <a class="nav-link" href="/usuario/registrarse"><i class="fas fa-address-book"></i> Registrarse</a>
                 </li>
 
                 <li class="nav-item <?php echo $datos['estado'] == 'ingresar' ? 'active': '' ?>">
-                    <a class="nav-link" href="<?php echo RUTA_URL;?>/usuario/ingresar"><i class="fas fa-sign-in-alt"></i> Ingresar</a>
+                    <a class="nav-link" href="/usuario/ingresar"><i class="fas fa-sign-in-alt"></i> Ingresar</a>
                 </li>
  
                 <?php 
